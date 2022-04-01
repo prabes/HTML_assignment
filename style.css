@@ -1,0 +1,187 @@
+:root {
+	--tree: green;
+	--trunk: #8c6238;
+	--sun: #ffac40;
+}
+
+.shapes {
+	display: flex;
+}
+
+.shape-plus {
+	border: 1px solid;
+	width: 50%;
+	height: 500px;
+	color: #ccc;
+}
+
+.vertical {
+	width: 70px;
+	height: 310px;
+	background: black;
+	margin-left: 200px;
+	margin-top: 50px;
+}
+
+.horizontal {
+	height: 70px;
+	width: 310px;
+	background: black;
+	margin-left: 200px;
+	margin-top: 0%;
+}
+
+.shape-L {
+	border: 1px solid;
+	color: #ccc;
+	width: 50%;
+}
+
+.VR {
+	width: 70px;
+	height: 310px;
+	background: black;
+	position: fixed;
+	left: 265px;
+	top: 100px;
+}
+
+.HR {
+	height: 70px;
+	width: 310px;
+	background: black;
+	position: relative;
+	top: 210px;
+	left: 135px;
+}
+
+.env {
+	border: 1px solid;
+	color: #ccc;
+	position: fixed;
+}
+
+.tree {
+	position: fixed;
+}
+
+.trunk {
+	height: 250px;
+	width: 70px;
+	border: 1px solid;
+	position: absolute;
+	top: 200px;
+	color: var(--trunk);
+	background-color: var(--trunk);
+	left: 200px;
+}
+
+.home {
+	position: absolute;
+	left: 500px;
+	height: 300px;
+	width: 400px;
+	top: 130px;
+	border-bottom: 1px solid;
+	border-left: 1px solid;
+	border-right: 1px solid;
+}
+
+.roof {
+	border-bottom: 90px solid #555;
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+	height: 0;
+	width: 400px;
+	position: relative;
+	right: 45px;
+}
+
+.sun {
+	position: absolute;
+	left: 1000px;
+	top: 20px;
+}
+
+.circle {
+	background: var(--sun);
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+}
+
+.circle-tree {
+	background: var(--tree);
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+
+.window1 {
+	height: 55px;
+	border: 2px solid;
+	width: 70px;
+	position: absolute;
+	top: 120px;
+	left: 20px;
+}
+
+.window2 {
+	height: 55px;
+	border: 2px solid;
+	width: 70px;
+	position: absolute;
+	top: 120px;
+	left: 300px;
+}
+
+.door {
+	top: 148px;
+	border: 2px solid;
+	width: 90px;
+	height: 150px;
+	position: absolute;
+	left: 150px;
+}
+
+#cir1 {
+	position: absolute;
+	bottom: 300px;
+}
+
+#cir2 {
+	position: absolute;
+	bottom: 180px;
+	left: 100px;
+}
+
+#cir3 {
+	background-color: var(--tree);
+	position: absolute;
+	bottom: 250px;
+	left: 70px;
+}
+
+#cir4 {
+	position: relative;
+	bottom: 160px;
+	right: 110px;
+}
+
+#cir5 {
+	position: relative;
+	bottom: 210px;
+	right: 30px;
+}
+
+#cir6 {
+	position: relative;
+	bottom: 380px;
+	right: 140px;
+}
+
+#cir7 {
+	position: absolute;
+	right: 10px;
+	bottom: 285px;
+}
